@@ -22,9 +22,11 @@ export default function QuestionCard({
   return (
     <div className="question-card">
       <p className="question-card__prompt">{question.prompt}</p>
-      <p className="question-card__translation">
-        ({question.word.translation})
-      </p>
+      {(question.word.wordType !== "sentence" || feedbackState) && (
+        <p className="question-card__translation">
+          ({question.word.translation})
+        </p>
+      )}
       {question.grammarInfo?.label && (
         <span className="question-card__badge">
           {question.grammarInfo.label}
