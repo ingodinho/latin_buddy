@@ -1,0 +1,92 @@
+export const ADJECTIVES = [
+  {
+    id: "bonus",
+    lemma: "bonus, bona, bonum",
+    translation: "gut",
+    declension: "a-o",
+    wordType: "adjective",
+    forms: {
+      m: {
+        Nominativ: { Singular: "bonus", Plural: "bonī" },
+        Genitiv: { Singular: "bonī", Plural: "bonōrum" },
+        Dativ: { Singular: "bonō", Plural: "bonīs" },
+        Akkusativ: { Singular: "bonum", Plural: "bonōs" },
+        Ablativ: { Singular: "bonō", Plural: "bonīs" },
+      },
+      f: {
+        Nominativ: { Singular: "bona", Plural: "bonae" },
+        Genitiv: { Singular: "bonae", Plural: "bonārum" },
+        Dativ: { Singular: "bonae", Plural: "bonīs" },
+        Akkusativ: { Singular: "bonam", Plural: "bonās" },
+        Ablativ: { Singular: "bonā", Plural: "bonīs" },
+      },
+      n: {
+        Nominativ: { Singular: "bonum", Plural: "bona" },
+        Genitiv: { Singular: "bonī", Plural: "bonōrum" },
+        Dativ: { Singular: "bonō", Plural: "bonīs" },
+        Akkusativ: { Singular: "bonum", Plural: "bona" },
+        Ablativ: { Singular: "bonō", Plural: "bonīs" },
+      },
+    },
+  },
+  {
+    id: "magnus",
+    lemma: "magnus, magna, magnum",
+    translation: "groß",
+    declension: "a-o",
+    wordType: "adjective",
+    forms: {
+      m: {
+        Nominativ: { Singular: "magnus", Plural: "magnī" },
+        Genitiv: { Singular: "magnī", Plural: "magnōrum" },
+        Dativ: { Singular: "magnō", Plural: "magnīs" },
+        Akkusativ: { Singular: "magnum", Plural: "magnōs" },
+        Ablativ: { Singular: "magnō", Plural: "magnīs" },
+      },
+      f: {
+        Nominativ: { Singular: "magna", Plural: "magnae" },
+        Genitiv: { Singular: "magnae", Plural: "magnārum" },
+        Dativ: { Singular: "magnae", Plural: "magnīs" },
+        Akkusativ: { Singular: "magnam", Plural: "magnās" },
+        Ablativ: { Singular: "magnā", Plural: "magnīs" },
+      },
+      n: {
+        Nominativ: { Singular: "magnum", Plural: "magna" },
+        Genitiv: { Singular: "magnī", Plural: "magnōrum" },
+        Dativ: { Singular: "magnō", Plural: "magnīs" },
+        Akkusativ: { Singular: "magnum", Plural: "magna" },
+        Ablativ: { Singular: "magnō", Plural: "magnīs" },
+      },
+    },
+  },
+  {
+    id: "felix",
+    lemma: "fēlīx",
+    translation: "glücklich",
+    declension: "cons",
+    wordType: "adjective",
+    forms: {
+      m: {
+        Nominativ: { Singular: "fēlīx", Plural: "fēlīcēs" },
+        Genitiv: { Singular: "fēlīcis", Plural: "fēlīcium" },
+        Dativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+        Akkusativ: { Singular: "fēlīcem", Plural: "fēlīcēs" },
+        Ablativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+      },
+      f: {
+        Nominativ: { Singular: "fēlīx", Plural: "fēlīcēs" },
+        Genitiv: { Singular: "fēlīcis", Plural: "fēlīcium" },
+        Dativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+        Akkusativ: { Singular: "fēlīcem", Plural: "fēlīcēs" },
+        Ablativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+      },
+      n: {
+        Nominativ: { Singular: "fēlīx", Plural: "fēlīcia" },
+        Genitiv: { Singular: "fēlīcis", Plural: "fēlīcium" },
+        Dativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+        Akkusativ: { Singular: "fēlīx", Plural: "fēlīcia" },
+        Ablativ: { Singular: "fēlīcī", Plural: "fēlīcibus" },
+      },
+    },
+  },
+];

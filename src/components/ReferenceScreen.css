@@ -1,0 +1,98 @@
+.ref {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0 2rem;
+}
+
+.ref__back {
+  align-self: flex-start;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  padding: 0.5rem 0;
+}
+
+.ref__back:active {
+  color: var(--color-primary-hover);
+}
+
+.ref__section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.ref__group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ref__group-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.ref__table-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ref__word-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.ref__word-meta {
+  font-weight: 400;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.ref__gender-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ref__gender-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}
+
+.ref__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.ref__table th,
+.ref__table td {
+  padding: 0.375rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.ref__table th {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  background-color: var(--color-bg);
+}
+
+.ref__row-label {
+  font-weight: 500;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
