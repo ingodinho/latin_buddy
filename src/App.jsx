@@ -6,6 +6,7 @@ import ProgressBar from "./components/ProgressBar";
 import QuestionCard from "./components/QuestionCard";
 import ResultScreen from "./components/ResultScreen";
 import ReferenceScreen from "./components/ReferenceScreen";
+import CasesScreen from "./components/CasesScreen";
 
 const QUESTION_COUNT = 10;
 
@@ -58,12 +59,17 @@ function App() {
       <MenuScreen
         onSelectCategory={startQuiz}
         onShowReference={() => setScreen("reference")}
+        onShowCases={() => setScreen("cases")}
       />
     );
   }
 
   if (screen === "reference") {
     return <ReferenceScreen onBack={goToMenu} />;
+  }
+
+  if (screen === "cases") {
+    return <CasesScreen onBack={goToMenu} />;
   }
 
   if (screen === "result") {
@@ -78,6 +84,9 @@ function App() {
 
   return (
     <>
+      <button className="quiz-back" onClick={goToMenu}>
+        ← Zurück
+      </button>
       <ProgressBar current={currentIndex} total={questions.length} />
       <QuestionCard
         question={questions[currentIndex]}

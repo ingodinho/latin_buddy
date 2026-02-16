@@ -1,0 +1,43 @@
+.cases__question {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.cases__description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.cases__examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cases__example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.cases__latin {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.cases__highlight {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.cases__german {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
