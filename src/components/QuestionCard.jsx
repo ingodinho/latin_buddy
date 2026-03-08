@@ -22,7 +22,7 @@ export default function QuestionCard({
   return (
     <div className="question-card">
       <p className="question-card__prompt">{question.prompt}</p>
-      {(question.word.wordType !== "sentence" || feedbackState) && (
+      {question.word.translation && (question.word.wordType !== "sentence" || feedbackState) && (
         <p className="question-card__translation">
           ({question.word.translation})
         </p>

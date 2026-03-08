@@ -1,0 +1,42 @@
+.qwords__intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.qwords__description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.qwords__expected {
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
+
+.qwords__examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.qwords__example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.qwords__latin {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.qwords__german {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}

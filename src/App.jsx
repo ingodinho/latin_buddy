@@ -7,6 +7,9 @@ import QuestionCard from "./components/QuestionCard";
 import ResultScreen from "./components/ResultScreen";
 import ReferenceScreen from "./components/ReferenceScreen";
 import CasesScreen from "./components/CasesScreen";
+import GenitiveAttributeScreen from "./components/GenitiveAttributeScreen";
+import AblativePrepScreen from "./components/AblativePrepScreen";
+import QuestionWordsScreen from "./components/QuestionWordsScreen";
 
 const QUESTION_COUNT = 10;
 
@@ -60,6 +63,9 @@ function App() {
         onSelectCategory={startQuiz}
         onShowReference={() => setScreen("reference")}
         onShowCases={() => setScreen("cases")}
+        onShowGenitiveAttribute={() => setScreen("genitive-attribute")}
+        onShowAblativePrepRef={() => setScreen("ablative-prep-ref")}
+        onShowQuestionWordsRef={() => setScreen("question-words-ref")}
       />
     );
   }
@@ -70,6 +76,18 @@ function App() {
 
   if (screen === "cases") {
     return <CasesScreen onBack={goToMenu} />;
+  }
+
+  if (screen === "genitive-attribute") {
+    return <GenitiveAttributeScreen onBack={goToMenu} />;
+  }
+
+  if (screen === "ablative-prep-ref") {
+    return <AblativePrepScreen onBack={goToMenu} />;
+  }
+
+  if (screen === "question-words-ref") {
+    return <QuestionWordsScreen onBack={goToMenu} />;
   }
 
   if (screen === "result") {

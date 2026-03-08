@@ -1,0 +1,37 @@
+.ablprep__intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.ablprep__meaning {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.ablprep__examples {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ablprep__example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.ablprep__latin {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.ablprep__german {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}

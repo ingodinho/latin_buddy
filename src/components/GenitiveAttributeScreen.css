@@ -1,0 +1,48 @@
+.genattr__intro {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.genattr__rules {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.genattr__example {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-surface);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.genattr__latin {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.genattr__highlight {
+  font-style: italic;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.genattr__german {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.genattr__explanation {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 0.125rem;
+}

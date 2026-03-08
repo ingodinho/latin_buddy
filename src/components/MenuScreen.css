@@ -54,3 +54,12 @@
 .menu-screen__button--secondary:active {
   border-color: var(--color-primary);
 }
+
+.menu-screen__section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
